@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-xxl {
+  padding: 0;
+}
+
+.fixed-top {
+  position: fixed;
+  padding: 10px;
+  transition: 0.1s ease-in-out;
+}
+
+.nav-active {
+  background-color: #28a745;
+}
+
+.img-principal{
+  width: 100%;
+  
+}
+
+/******************************** INICIO NAVBAR CART ************************************/
+table{
+  border-collapse: collapse;
+}
+
+.submenu {
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
+.submenu #carrito {
+  display: none;
+}
+.submenu:hover #carrito {
+  display: block;
+  position: absolute;
+  right: 0%;
+  left: -140px;
+ /*  margin-top: 0px; */
+  top: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  /* min-height: 400px; */
+  min-width: 320px;
+  border: solid 2px #28a745;
+  border-radius: 7px;
+  color: #444444;
+}
+
+.dropdown-menu[data-bs-popper] {
+  left: -150px;
+}
+
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.lista-carrito {
+  margin-bottom: 2.5rem;
+}
+
+.two.columns {
+  width: 10%;
+}
+
+
+.btn-outline-success:hover {
+  color: #28a745;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+/* .btn {padding: 0.09rem 0.2rem;
+  font-size: 0.8rem;
+} */
+
+.btn-inc {
+  background-color: #28a745;
+  border-radius: 15%;
+  padding: 1px 4.6px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: small;
+  padding-bottom: 4.6px;
+}
+.btn-dec {
+  background-color: #28a745;
+  border-radius: 15%;
+  padding: 1px 7px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: small;
+  padding-bottom: 4.6px;
+}
+
+.eliminar-prod {
+  background-color: red;
+  border-radius: 50%;
+  padding: 0px 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 4px;
+  font-size: small;
+}
+
+.popup {
+	position: absolute;
+	color: #28a745;
+	bottom: 5%;
+	right: 5%;
+	border: #28a745 2px solid;
+	border-radius: 40px;
+	text-align: center;
+	font-size: 2.7vh;
+	background: #fff;
+	width: 90%;
+	height: 40px;
+	z-index: 200;
+}
+
+
+
+
+/* ####################################### MEDIA QUERIES #############################################3 */
+
+@media (min-width: 600px) and (max-width: 1024px) {
+
+  .submenu #carrito {
+    display: none;
+  }
+  .submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    left: 10px;
+    margin-top: 0px;
+    top: 100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+    border: solid 2px #28a745;
+    color: #444444;
+  }
+
+
+}
+
+
+
+@media (min-width: 300px) and (max-width: 600px) {
+
+  .img-principal{
+    width: 100%;
+    
+  }
+  .submenu #carrito {
+    display: none;
+  }
+  .submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    left: 0;
+    margin-top: 0px;
+    top: 100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+    border: solid 2px #28a745;
+    color: #444444;
+  }
+
+}

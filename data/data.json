@@ -1,0 +1,141 @@
+[
+    {
+        "id": 1,
+        "nombre": "Sansiviera",
+        "imagen": "./img/productos/sansiviera.jpg",
+        "precio": 200
+    },
+    {
+        "id": 2,
+        "nombre": "Clepia",
+        "imagen": "./img/productos/clepiaS12.jpg",
+        "precio": 100
+    },
+    {
+        "id": 3,
+        "nombre": "Palmito",
+        "imagen": "./img/productos/palmitoS12.jpg",
+        "precio": 250
+    },
+    {
+        "id": 4,
+        "nombre": "Buxus",
+        "imagen": "./img/productos/buxus.jpg",
+        "precio": 400
+    },
+    {
+        "id": 5,
+        "nombre": "Palo De Agua",
+        "imagen": "./img/productos/paloDeAgua.jpg",
+        "precio": 300
+    },
+    {
+        "id": 6,
+        "nombre": "Aljaba",
+        "imagen": "./img/productos/aljabaM17.jpg",
+        "precio": 100
+    },
+    {
+        "id": 7,
+        "nombre": "Producto 7",
+        "imagen": "./img/productos/palmitoS12.jpg",
+        "precio": 900
+    },
+    {
+        "id": 8,
+        "nombre": "Producto 8",
+        "imagen": "./img/productos/palmitoS12.jpg",
+        "precio": 450
+    },
+    {
+        "id": 9,
+        "nombre": "Producto 9",
+        "imagen": "./img/productos/palmitoS12.jpg",
+        "precio": 600
+    },
+    {
+        "id": 10,
+        "nombre": "Producto 10",
+        "imagen": "./img/productos/palmitoS12.jpg",
+        "precio": 950
+    },
+    {
+        "id": 11,
+        "nombre": "Producto 11",
+        "imagen": "./img/productos/palmitoS12.jpg",
+        "precio": 400
+    },
+    {
+        "id": 12,
+        "nombre": "Producto 12",
+        "imagen": "./img/productos/palmitoS12.jpg",
+        "precio": 500
+    },
+    {
+        "id": 1,
+        "nombre": "Sansiviera",
+        "imagen": "./img/productos/sansiviera.jpg",
+        "precio": 200
+    },
+    {
+        "id": 2,
+        "nombre": "Clepia",
+        "imagen": "./img/productos/clepiaS12.jpg",
+        "precio": 100
+    },
+    {
+        "id": 3,
+        "nombre": "Palmito",
+        "imagen": "./img/productos/palmitoS12.jpg",
+        "precio": 250
+    },
+    {
+        "id": 4,
+        "nombre": "Buxus",
+        "imagen": "./img/productos/buxus.jpg",
+        "precio": 400
+    },
+    {
+        "id": 5,
+        "nombre": "Palo De Agua",
+        "imagen": "./img/productos/paloDeAgua.jpg",
+        "precio": 300
+    },
+    {
+        "id": 6,
+        "nombre": "Aljaba",
+        "imagen": "./img/productos/aljabaM17.jpg",
+        "precio": 100
+    },
+    {
+        "id": 7,
+        "nombre": "Producto 7",
+        "imagen": "./img/productos/palmitoS12.jpg",
+        "precio": 900
+    },
+    {
+        "id": 8,
+        "nombre": "Producto 8",
+        "imagen": "./img/productos/palmitoS12.jpg",
+        "precio": 450
+    },
+    {
+        "id": 9,
+        "nombre": "Producto 9",
+        "imagen": "./img/productos/palmitoS12.jpg",
+        "precio": 600
+    },
+    {
+        "id": 10,
+        "nombre": "Producto 10",
+        "imagen": "./img/productos/palmitoS12.jpg",
+        "precio": 950
+    },
+    {
+        "id": 11,
+        "nombre": "Producto 11",
+        "imagen": "./img/productos/palmitoS12.jpg",
+        "precio": 400
+    }
+    
+]
