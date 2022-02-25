@@ -19,8 +19,6 @@
 </head>
 
 <header class="container-xxl header-area">
-
-
     <nav class="navbar navbar-expand-lg fixed-top nav-active">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -30,8 +28,6 @@
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-
 
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
@@ -58,45 +54,6 @@
                     </li>
                 </ul>
 
-
-                <!-- CARRITO -->
-                <!-- <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item dropdown">
-                            <img src="img/cart.jpeg" class="nav-link dropdown-toggle img-fluid" height="50px"
-                                width="50px" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false"></img>
-                            <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
-                                <table id="lista-carrito" class="table">
-                                    <thead>
-                                        <tr>
-                                            <th>Imagen</th>
-                                            <th>Nombre</th>
-                                            <th colspan="3">Cantidad</th>
-
-                                            <th>Precio</th>
-                                            <th></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody></tbody>
-                                </table>
-                                <h6>Total de su compra: <span id="total">$ 0</span></h6>
-
-
-                                <a href="#" class="btn btn-primary btn-block" onclick="vaciarCarrito()">Vaciar
-                                    Carrito</a>
-                                <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar
-                                    Compra</a>
-
-                            </div>
-                        </li>
-                    </ul>
-                </div> -->
-
-            
-        
-            
-
                 <!-- Cart -->
                 <div class="two columns u-pull-right">
                     <ul>
@@ -119,7 +76,6 @@
 
                                 <h6 class="mt-4">Total de su compra: <span id="total">$ 0</span></h6>
 
-
                                 <div class="container-xxl">
                                     <div class="row">
                                         <a href="#" class="btn btn-primary" onclick="vaciarCarrito()">Vaciar
@@ -135,7 +91,8 @@
                 </div>
 
                 <form class="d-flex input-filtrar">
-                    <input class="form-control me-2" type="search" id="search" placeholder="Buscar producto" aria-label="Search">
+                    <input class="form-control me-2" type="search" id="search" placeholder="Buscar producto"
+                        aria-label="Search">
                     <button class="btn btn-outline-success" type="submit" onclick="filtrar()">Buscar</button>
                 </form>
             </div>
@@ -151,17 +108,13 @@
 
     </div>
 
-
     <div class="container mt-5 mb-5">
         <h1 class="text-center">Mi Comercio</h1>
         <h3 class="text-center">Productos en stock</h3>
 
         <div class="row d-flex justify-content-around" id="stock"></div>
         <button class="btn btn-secondary" id="btnMore" onclick="mostrarStock()">Más Productos</button>
-
-
     </div>
-
 
     <!-- lib Jquery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js">

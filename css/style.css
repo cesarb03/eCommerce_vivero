@@ -19,9 +19,15 @@
 
 .img-principal{
   width: 100%;
-  
 }
 
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(127,234,68, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border: 3px solid rgb(60,146,12);
+}
 /******************************** INICIO NAVBAR CART ************************************/
 table{
   border-collapse: collapse;
@@ -72,16 +78,11 @@ ul {
   width: 10%;
 }
 
-
 .btn-outline-success:hover {
   color: #28a745;
   background-color: #fff;
   border-color: #fff;
 }
-
-/* .btn {padding: 0.09rem 0.2rem;
-  font-size: 0.8rem;
-} */
 
 .btn-inc {
   background-color: #28a745;
@@ -129,8 +130,6 @@ ul {
 	height: 40px;
 	z-index: 200;
 }
-
-
 
 
 /* ####################################### MEDIA QUERIES #############################################3 */
